@@ -23,3 +23,4 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 touch .env  # Add your GROQ_API_KEY here
+streamlit run financial_app.py
